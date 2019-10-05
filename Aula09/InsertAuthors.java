@@ -24,7 +24,7 @@ public class InsertAuthors
       System.out.println("Connecting database...");
       try {
          connection = DriverManager.getConnection(
-            DATABASE_URL, "root", "aluno" );
+            DATABASE_URL, "root", "123mudar" );
 
          PreparedStatement st = connection.prepareStatement(query);
           st.setString(1, author);

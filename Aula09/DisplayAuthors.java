@@ -23,7 +23,7 @@ public class DisplayAuthors
       {
          // establish connection to database
          connection = DriverManager.getConnection(
-            DATABASE_URL, "admin", "iddqd" );
+            DATABASE_URL, "root", "123mudar" );
 
          // create Statement for querying database
          statement = connection.createStatement();
